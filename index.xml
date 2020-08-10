@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yihe&#39;s Personal Website on Yihe&#39;s Personal Website</title>
+    <link>https://yihe.github.io/</link>
+    <description>Recent content in Yihe&#39;s Personal Website on Yihe&#39;s Personal Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2014 -- 2020</copyright>
+    <lastBuildDate>Fri, 09 Feb 2018 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Opportunities for optimism in contended main-memory transactions</title>
+      <link>https://yihe.github.io/talk/nedb20-talk/nedb20-talk/</link>
+      <pubDate>Wed, 15 Jan 2020 20:00:00 -0400</pubDate>
+      
+      <guid>https://yihe.github.io/talk/nedb20-talk/nedb20-talk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Opportunities for Optimism in Contended Main-Memory Multicore Transactions</title>
+      <link>https://yihe.github.io/publication/cc-vldb/</link>
+      <pubDate>Fri, 10 Jan 2020 20:34:11 -0400</pubDate>
+      
+      <guid>https://yihe.github.io/publication/cc-vldb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On main-memory multicore transaction performance</title>
+      <link>https://yihe.github.io/talk/sosp19-src/sosp19-src/</link>
+      <pubDate>Fri, 06 Sep 2019 01:00:00 -0400</pubDate>
+      
+      <guid>https://yihe.github.io/talk/sosp19-src/sosp19-src/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Closing the Performance Gap Between Volatile and Persistent Key-Value Stores Using Cross-Referencing Logs</title>
+      <link>https://yihe.github.io/publication/bullet/</link>
+      <pubDate>Fri, 20 Apr 2018 10:11:11 -0400</pubDate>
+      
+      <guid>https://yihe.github.io/publication/bullet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>STO Project</title>
+      <link>https://yihe.github.io/project/sto-project/</link>
+      <pubDate>Fri, 09 Feb 2018 12:08:33 -0500</pubDate>
+      
+      <guid>https://yihe.github.io/project/sto-project/</guid>
+      <description>
+
+&lt;h1 id=&#34;sto-software-transactional-objects&#34;&gt;STO: Software Transactional Objects&lt;/h1&gt;
+
+&lt;p&gt;STO is a fast in-memory transaction framework. It&amp;rsquo;s written in C++ and functions like a transactional memory library for C++.&lt;/p&gt;
+
+&lt;p&gt;STO uses type-level information, defined by data type implementers, to reduce the size of the transaction tracking set and avoid false conflicts. For more information, please refer to &lt;a href=&#34;https://yihe.github.io/publication/sto-paper/&#34; target=&#34;_blank&#34;&gt;our publication page&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;STO is open-source and &lt;a href=&#34;https://github.com/readablesystems/sto&#34; target=&#34;_blank&#34;&gt;hosted on GitHub&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Improving optimistic concurrency control</title>
+      <link>https://yihe.github.io/talk/nens17-talk/</link>
+      <pubDate>Thu, 07 Dec 2017 09:10:08 -0500</pubDate>
+      
+      <guid>https://yihe.github.io/talk/nens17-talk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Persistent Memory Transactions</title>
+      <link>https://yihe.github.io/publication/pm-transactions/</link>
+      <pubDate>Wed, 12 Jul 2017 18:06:05 -0500</pubDate>
+      
+      <guid>https://yihe.github.io/publication/pm-transactions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Software systems for advanced memory technologies</title>
+      <link>https://yihe.github.io/publication/quals-paper/</link>
+      <pubDate>Mon, 30 May 2016 08:47:16 -0500</pubDate>
+      
+      <guid>https://yihe.github.io/publication/quals-paper/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Type-aware transactions for faster concurrent code</title>
+      <link>https://yihe.github.io/publication/sto-paper/</link>
+      <pubDate>Fri, 15 Apr 2016 11:46:52 -0500</pubDate>
+      
+      <guid>https://yihe.github.io/publication/sto-paper/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Real Semantics: Capturing Floating-point Imprecision</title>
+      <link>https://yihe.github.io/publication/real_semantics/</link>
+      <pubDate>Mon, 19 Oct 2015 15:38:35 -0400</pubDate>
+      
+      <guid>https://yihe.github.io/publication/real_semantics/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
