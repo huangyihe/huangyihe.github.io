@@ -18,7 +18,7 @@
   <meta name="description" content="Main-memory database systems achieve high throughput by keeping their data structures entirely in memory, and by taking advantage of parallel execution on multicore hardware. This requires concurrency control (CC), which ensures serializability (or other isolation properties) for concurrently executed transactions. The performance of CC mechanisms has been an active area of systems research. Many differentCC mechanisms claim to improve performance over base-lines such as optimistic concurrency control (OCC). However, main-memory transactions can run so fast that small differences in system design and implementation, often unrelated to CC mechanism, can have magnified impact on performance. For instance, many CC schemes have been motivated by apparent collapse under high contention of the performance of single-version OCC; but when using our own optimistic OCC-based system, we do not observe this collapse. Why is this? And are the observed benefits of new CC designs, such as multi-version and mixed optimistic/pessimistic CC variants, due more to CC mechanisms, or more to implementation differences? In this work, we identify non-CC implementation factors that can have nontrivial impact on transaction performance,and conduct a set of carefully controlled experiments to find their degree of impact. We find that for a high contention OLTP workload, the collapse of other OCC implementations’ performance is caused by non-CC factors such as index contention, index type, and contention regulation. In particular, the index contention we found is present in many systems and has severe adverse performance implications, but is largely overlooked by recent work.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://yihe.github.io/talk/sosp19-src/sosp19-src/">
+  <link rel="alternate" hreflang="en-us" href="https://huangyihe.github.io/talk/sosp19-src/sosp19-src/">
 
   
 
@@ -71,26 +71,26 @@
   
 
   
-  <link rel="alternate" href="https://yihe.github.io/index.xml" type="application/rss+xml" title="Yihe&#39;s Personal Website">
-  <link rel="feed" href="https://yihe.github.io/index.xml" type="application/rss+xml" title="Yihe&#39;s Personal Website">
+  <link rel="alternate" href="https://huangyihe.github.io/index.xml" type="application/rss+xml" title="Yihe&#39;s Personal Website">
+  <link rel="feed" href="https://huangyihe.github.io/index.xml" type="application/rss+xml" title="Yihe&#39;s Personal Website">
   
 
   <link rel="manifest" href="/site.webmanifest">
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://yihe.github.io/talk/sosp19-src/sosp19-src/">
+  <link rel="canonical" href="https://huangyihe.github.io/talk/sosp19-src/sosp19-src/">
 
   <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="Yihe&#39;s Personal Website">
-  <meta property="og:url" content="https://yihe.github.io/talk/sosp19-src/sosp19-src/">
+  <meta property="og:url" content="https://huangyihe.github.io/talk/sosp19-src/sosp19-src/">
   <meta property="og:title" content="On main-memory multicore transaction performance | Yihe&#39;s Personal Website">
   <meta property="og:description" content="Main-memory database systems achieve high throughput by keeping their data structures entirely in memory, and by taking advantage of parallel execution on multicore hardware. This requires concurrency control (CC), which ensures serializability (or other isolation properties) for concurrently executed transactions. The performance of CC mechanisms has been an active area of systems research. Many differentCC mechanisms claim to improve performance over base-lines such as optimistic concurrency control (OCC). However, main-memory transactions can run so fast that small differences in system design and implementation, often unrelated to CC mechanism, can have magnified impact on performance. For instance, many CC schemes have been motivated by apparent collapse under high contention of the performance of single-version OCC; but when using our own optimistic OCC-based system, we do not observe this collapse. Why is this? And are the observed benefits of new CC designs, such as multi-version and mixed optimistic/pessimistic CC variants, due more to CC mechanisms, or more to implementation differences? In this work, we identify non-CC implementation factors that can have nontrivial impact on transaction performance,and conduct a set of carefully controlled experiments to find their degree of impact. We find that for a high contention OLTP workload, the collapse of other OCC implementations’ performance is caused by non-CC factors such as index contention, index type, and contention regulation. In particular, the index contention we found is present in many systems and has severe adverse performance implications, but is largely overlooked by recent work.">
   
   
     
-  <meta property="og:image" content="https://yihe.github.io/img/icon-192.png">
+  <meta property="og:image" content="https://huangyihe.github.io/img/icon-192.png">
   <meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2019-09-06T01:00:00-04:00">
@@ -313,35 +313,35 @@
   <ul class="share">
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=On%20main-memory%20multicore%20transaction%20performance&amp;url=https%3a%2f%2fyihe.github.io%2ftalk%2fsosp19-src%2fsosp19-src%2f"
+         href="https://twitter.com/intent/tweet?text=On%20main-memory%20multicore%20transaction%20performance&amp;url=https%3a%2f%2fhuangyihe.github.io%2ftalk%2fsosp19-src%2fsosp19-src%2f"
          target="_blank" rel="noopener">
         <i class="fab fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fyihe.github.io%2ftalk%2fsosp19-src%2fsosp19-src%2f"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fhuangyihe.github.io%2ftalk%2fsosp19-src%2fsosp19-src%2f"
          target="_blank" rel="noopener">
         <i class="fab fa-facebook-f"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fyihe.github.io%2ftalk%2fsosp19-src%2fsosp19-src%2f&amp;title=On%20main-memory%20multicore%20transaction%20performance"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fhuangyihe.github.io%2ftalk%2fsosp19-src%2fsosp19-src%2f&amp;title=On%20main-memory%20multicore%20transaction%20performance"
          target="_blank" rel="noopener">
         <i class="fab fa-linkedin-in"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fyihe.github.io%2ftalk%2fsosp19-src%2fsosp19-src%2f&amp;title=On%20main-memory%20multicore%20transaction%20performance"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fhuangyihe.github.io%2ftalk%2fsosp19-src%2fsosp19-src%2f&amp;title=On%20main-memory%20multicore%20transaction%20performance"
          target="_blank" rel="noopener">
         <i class="fab fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=On%20main-memory%20multicore%20transaction%20performance&amp;body=https%3a%2f%2fyihe.github.io%2ftalk%2fsosp19-src%2fsosp19-src%2f">
+         href="mailto:?subject=On%20main-memory%20multicore%20transaction%20performance&amp;body=https%3a%2f%2fhuangyihe.github.io%2ftalk%2fsosp19-src%2fsosp19-src%2f">
         <i class="fas fa-envelope"></i>
       </a>
     </li>

@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>1 on Yihe&#39;s Personal Website</title>
-    <link>https://yihe.github.io/publication_types/1/</link>
+    <link>https://huangyihe.github.io/publication_types/1/</link>
     <description>Recent content in 1 on Yihe&#39;s Personal Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2014 -- 2020</copyright>
     <lastBuildDate>Fri, 10 Jan 2020 20:34:11 -0400</lastBuildDate>
     
-	<atom:link href="https://yihe.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://huangyihe.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Opportunities for Optimism in Contended Main-Memory Multicore Transactions</title>
-      <link>https://yihe.github.io/publication/cc-vldb/</link>
+      <link>https://huangyihe.github.io/publication/cc-vldb/</link>
       <pubDate>Fri, 10 Jan 2020 20:34:11 -0400</pubDate>
       
-      <guid>https://yihe.github.io/publication/cc-vldb/</guid>
+      <guid>https://huangyihe.github.io/publication/cc-vldb/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Closing the Performance Gap Between Volatile and Persistent Key-Value Stores Using Cross-Referencing Logs</title>
-      <link>https://yihe.github.io/publication/bullet/</link>
+      <link>https://huangyihe.github.io/publication/bullet/</link>
       <pubDate>Fri, 20 Apr 2018 10:11:11 -0400</pubDate>
       
-      <guid>https://yihe.github.io/publication/bullet/</guid>
+      <guid>https://huangyihe.github.io/publication/bullet/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Type-aware transactions for faster concurrent code</title>
-      <link>https://yihe.github.io/publication/sto-paper/</link>
+      <link>https://huangyihe.github.io/publication/sto-paper/</link>
       <pubDate>Fri, 15 Apr 2016 11:46:52 -0500</pubDate>
       
-      <guid>https://yihe.github.io/publication/sto-paper/</guid>
+      <guid>https://huangyihe.github.io/publication/sto-paper/</guid>
       <description></description>
     </item>
     

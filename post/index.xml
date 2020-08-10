@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Yihe&#39;s Personal Website</title>
-    <link>https://yihe.github.io/post/</link>
+    <link>https://huangyihe.github.io/post/</link>
     <description>Recent content in Posts on Yihe&#39;s Personal Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2014 -- 2020</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 -0500</lastBuildDate>
     
-	<atom:link href="https://yihe.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://huangyihe.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

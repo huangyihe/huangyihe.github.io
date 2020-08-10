@@ -18,7 +18,7 @@
   <meta name="description" content="Key-Value (K-V) stores are an integral building block in modern datacenter applications. With byte-addressable persistent memory (PM) technologies, such as Intel/Micron’s 3D XPoint, on the horizon, there has been an influx of new high performance K-V stores that leverage PM for performance. However, there remains a significant performance gap between PM optimized K-V stores and DRAM resident ones, largely reflecting the gap between projected PM latency relative to that of DRAM. We address that performance gap with Bullet, a K-V store that leverages both the byte-addressability of PM and the lower latency of DRAM, using a technique called cross-referencing logs (CRLs) to keep PM updates off the critical path. Bullet delivers performance approaching that of DRAM resident K-V stores by maintaining two hash tables, one in the slower (backend) PM and the other in the faster (frontend) DRAM. CRLs are a scalable persistent logging mechanism that keeps the two copies mutually consistent. Bullet also incorporates several critical optimizations, such as dynamic load balancing between frontend and backend threads, support for nonblocking Gets, and opportunistic omission of stale updates in the backend. This combination of implementation techniques delivers performance within 5% of that of DRAM-only key-value stores for realistic (read-heavy) workloads. Our general approach, based on CRLs, is “universal” in that it can be used to turn any volatile K-V store into a persistent one (or vice-versa, provide a fast cache for a persistent K-V store).">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://yihe.github.io/publication/bullet/">
+  <link rel="alternate" hreflang="en-us" href="https://huangyihe.github.io/publication/bullet/">
 
   
 
@@ -78,26 +78,26 @@
   
 
   
-  <link rel="alternate" href="https://yihe.github.io/index.xml" type="application/rss+xml" title="Yihe&#39;s Personal Website">
-  <link rel="feed" href="https://yihe.github.io/index.xml" type="application/rss+xml" title="Yihe&#39;s Personal Website">
+  <link rel="alternate" href="https://huangyihe.github.io/index.xml" type="application/rss+xml" title="Yihe&#39;s Personal Website">
+  <link rel="feed" href="https://huangyihe.github.io/index.xml" type="application/rss+xml" title="Yihe&#39;s Personal Website">
   
 
   <link rel="manifest" href="/site.webmanifest">
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://yihe.github.io/publication/bullet/">
+  <link rel="canonical" href="https://huangyihe.github.io/publication/bullet/">
 
   <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="Yihe&#39;s Personal Website">
-  <meta property="og:url" content="https://yihe.github.io/publication/bullet/">
+  <meta property="og:url" content="https://huangyihe.github.io/publication/bullet/">
   <meta property="og:title" content="Closing the Performance Gap Between Volatile and Persistent Key-Value Stores Using Cross-Referencing Logs | Yihe&#39;s Personal Website">
   <meta property="og:description" content="Key-Value (K-V) stores are an integral building block in modern datacenter applications. With byte-addressable persistent memory (PM) technologies, such as Intel/Micron’s 3D XPoint, on the horizon, there has been an influx of new high performance K-V stores that leverage PM for performance. However, there remains a significant performance gap between PM optimized K-V stores and DRAM resident ones, largely reflecting the gap between projected PM latency relative to that of DRAM. We address that performance gap with Bullet, a K-V store that leverages both the byte-addressability of PM and the lower latency of DRAM, using a technique called cross-referencing logs (CRLs) to keep PM updates off the critical path. Bullet delivers performance approaching that of DRAM resident K-V stores by maintaining two hash tables, one in the slower (backend) PM and the other in the faster (frontend) DRAM. CRLs are a scalable persistent logging mechanism that keeps the two copies mutually consistent. Bullet also incorporates several critical optimizations, such as dynamic load balancing between frontend and backend threads, support for nonblocking Gets, and opportunistic omission of stale updates in the backend. This combination of implementation techniques delivers performance within 5% of that of DRAM-only key-value stores for realistic (read-heavy) workloads. Our general approach, based on CRLs, is “universal” in that it can be used to turn any volatile K-V store into a persistent one (or vice-versa, provide a fast cache for a persistent K-V store).">
   
   
     
-  <meta property="og:image" content="https://yihe.github.io/img/icon-192.png">
+  <meta property="og:image" content="https://huangyihe.github.io/img/icon-192.png">
   <meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2018-04-20T10:11:11-04:00">
@@ -339,35 +339,35 @@
   <ul class="share">
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Closing%20the%20Performance%20Gap%20Between%20Volatile%20and%20Persistent%20Key-Value%20Stores%20Using%20Cross-Referencing%20Logs&amp;url=https%3a%2f%2fyihe.github.io%2fpublication%2fbullet%2f"
+         href="https://twitter.com/intent/tweet?text=Closing%20the%20Performance%20Gap%20Between%20Volatile%20and%20Persistent%20Key-Value%20Stores%20Using%20Cross-Referencing%20Logs&amp;url=https%3a%2f%2fhuangyihe.github.io%2fpublication%2fbullet%2f"
          target="_blank" rel="noopener">
         <i class="fab fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fyihe.github.io%2fpublication%2fbullet%2f"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fhuangyihe.github.io%2fpublication%2fbullet%2f"
          target="_blank" rel="noopener">
         <i class="fab fa-facebook-f"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fyihe.github.io%2fpublication%2fbullet%2f&amp;title=Closing%20the%20Performance%20Gap%20Between%20Volatile%20and%20Persistent%20Key-Value%20Stores%20Using%20Cross-Referencing%20Logs"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fhuangyihe.github.io%2fpublication%2fbullet%2f&amp;title=Closing%20the%20Performance%20Gap%20Between%20Volatile%20and%20Persistent%20Key-Value%20Stores%20Using%20Cross-Referencing%20Logs"
          target="_blank" rel="noopener">
         <i class="fab fa-linkedin-in"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fyihe.github.io%2fpublication%2fbullet%2f&amp;title=Closing%20the%20Performance%20Gap%20Between%20Volatile%20and%20Persistent%20Key-Value%20Stores%20Using%20Cross-Referencing%20Logs"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fhuangyihe.github.io%2fpublication%2fbullet%2f&amp;title=Closing%20the%20Performance%20Gap%20Between%20Volatile%20and%20Persistent%20Key-Value%20Stores%20Using%20Cross-Referencing%20Logs"
          target="_blank" rel="noopener">
         <i class="fab fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=Closing%20the%20Performance%20Gap%20Between%20Volatile%20and%20Persistent%20Key-Value%20Stores%20Using%20Cross-Referencing%20Logs&amp;body=https%3a%2f%2fyihe.github.io%2fpublication%2fbullet%2f">
+         href="mailto:?subject=Closing%20the%20Performance%20Gap%20Between%20Volatile%20and%20Persistent%20Key-Value%20Stores%20Using%20Cross-Referencing%20Logs&amp;body=https%3a%2f%2fhuangyihe.github.io%2fpublication%2fbullet%2f">
         <i class="fas fa-envelope"></i>
       </a>
     </li>

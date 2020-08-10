@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>3 on Yihe&#39;s Personal Website</title>
-    <link>https://yihe.github.io/publication_types/3/</link>
+    <link>https://huangyihe.github.io/publication_types/3/</link>
     <description>Recent content in 3 on Yihe&#39;s Personal Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2014 -- 2020</copyright>
     <lastBuildDate>Mon, 30 May 2016 08:47:16 -0500</lastBuildDate>
     
-	<atom:link href="https://yihe.github.io/publication_types/3/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://huangyihe.github.io/publication_types/3/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Software systems for advanced memory technologies</title>
-      <link>https://yihe.github.io/publication/quals-paper/</link>
+      <link>https://huangyihe.github.io/publication/quals-paper/</link>
       <pubDate>Mon, 30 May 2016 08:47:16 -0500</pubDate>
       
-      <guid>https://yihe.github.io/publication/quals-paper/</guid>
+      <guid>https://huangyihe.github.io/publication/quals-paper/</guid>
       <description></description>
     </item>
     
